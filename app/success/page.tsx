@@ -8,14 +8,13 @@ export default function SuccessPage() {
           Merci, votre paiement est confirmé.
         </h1>
         <p className="text-ink/70 mb-8">
-          Votre audit personnalisé arrive par email sous 24h. Vérifiez aussi
-          vos spams au cas où.
+          Votre audit personnalisé vous attend juste en dessous.
         </p>
         <Link
-          href="/"
-          className="inline-block rounded-md bg-ink px-6 py-3 text-offwhite font-semibold"
+          href="/audit"
+          className="inline-block rounded-md bg-mustard px-6 py-3 text-ink font-semibold"
         >
-          Retour à l&apos;accueil
+          Accéder à mon audit →
         </Link>
       </div>
     </main>
